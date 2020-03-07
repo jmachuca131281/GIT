@@ -1,19 +1,19 @@
 Configurate first time:
 
-	git config --global user.name "Jmachuca131281"
-	git config --global user.email "jmachucaprogrammer@gmail.com"
+git config --global user.name "Jmachuca131281"
+git config --global user.email "jmachucaprogrammer@gmail.com"
 
 Confirm cofiguration:
 
-	git config --list
-	git config user.name
-	git config user.email
+git config --list
+git config user.name
+git config user.email
 
 Start repository:
 
-	git init
+git init
 
-###Tree states:
+Tree states:
 
 Workign directory
 
@@ -26,3 +26,9 @@ Staging area
 Local repository	
 
 	git Push origin master
+	git remote -v
+
+### Bring a repository
+
+	git pull origen master
+
