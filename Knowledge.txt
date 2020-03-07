@@ -1,0 +1,28 @@
+###Configurate first time:
+
+git config --global user.name "Jmachuca131281"
+git config --global user.email "jmachucaprogrammer@gmail.com"
+
+###Confirm cofiguration:
+
+git config --list
+git config user.name
+git config user.email
+
+###Start repository:
+
+git init
+
+###Tree states:
+
+Workign directory
+
+	git add fileName
+
+Staging area
+
+	git commint -m "Message"
+
+Local repository	
+
+	git Push origin master
