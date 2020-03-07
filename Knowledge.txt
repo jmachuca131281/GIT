@@ -1,17 +1,17 @@
-###Configurate first time:
+Configurate first time:
 
-git config --global user.name "Jmachuca131281"
-git config --global user.email "jmachucaprogrammer@gmail.com"
+	git config --global user.name "Jmachuca131281"
+	git config --global user.email "jmachucaprogrammer@gmail.com"
 
-###Confirm cofiguration:
+Confirm cofiguration:
 
-git config --list
-git config user.name
-git config user.email
+	git config --list
+	git config user.name
+	git config user.email
 
-###Start repository:
+Start repository:
 
-git init
+	git init
 
 ###Tree states:
 
