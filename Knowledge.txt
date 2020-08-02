@@ -2,6 +2,10 @@ Git checkout works hand-in-hand with git branch. The git branch command can be u
 
 git checkout -b jmachuca
 
+#Para recostruir un archivo del webpack
+
+git checkout -- .
+
 Configurate first time:
 
 git config --global user.name "Jmachuca131281"
