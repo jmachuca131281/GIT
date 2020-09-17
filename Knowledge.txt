@@ -39,4 +39,8 @@ Local repository
 ### Bring a repository
 
 	git pull origen master
+	
+### Desbloquear el git para hacer el clone
+
+	 git config --system --unset credential.helper
 
