@@ -6,41 +6,41 @@ git checkout -b jmachuca
 
 git checkout -- .
 
-Configurate first time:
+#Configurate first time:
 
 git config --global user.name "Jmachuca131281"
 git config --global user.email "jmachucaprogrammer@gmail.com"
 
-Confirm cofiguration:
+#Confirm cofiguration:
 
 git config --list
 git config user.name
 git config user.email
 
-Start repository:
+#Start repository:
 
 git init
 
-Tree states:
+#Tree states:
 
-Workign directory
+#Workign directory
 
-	git add fileName
+git add fileName or git add . 
 
-Staging area
+#Staging area
 
-	git commint -m "Message"
+git commint -m "Message"
 
-Local repository	
+#Local repository	
 
-	git Push origin master
-	git remote -v
+git Push origin master
+git remote -v
 
-### Bring a repository
+#Bring a repository
 
-	git pull origen master
+git pull origen master
 	
-### Desbloquear el git para hacer el clone
+#Desbloquear el git para hacer el clone
 
-	 git config --system --unset credential.helper
+git config --system --unset credential.helper
 
