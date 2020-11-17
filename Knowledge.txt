@@ -1,46 +1,30 @@
-Git checkout works hand-in-hand with git branch. The git branch command can be used to create a new branch. When you want to start a new feature, you create a new branch off master using git branch new_branch. Once created you can then use git checkout new_branch to switch to that branch. Additionally, The git checkout command accepts a -b argument that acts as a convenience method which will create the new branch and immediately switch to it. You can work on multiple features in a single repository by switching between them with git checkout.
+Configurate first time:
 
-git checkout -b jmachuca
+	git config --global user.name "Jmachuca131281"
+	git config --global user.email "jmachucaprogrammer@gmail.com"
 
-#Para recostruir un archivo del webpack
+Confirm cofiguration:
 
-git checkout -- .
+	git config --list
+	git config user.name
+	git config user.email
 
-#Configurate first time:
+Start repository:
 
-git config --global user.name "Jmachuca131281"
-git config --global user.email "jmachucaprogrammer@gmail.com"
+	git init
 
-#Confirm cofiguration:
+Tree states:
 
-git config --list
-git config user.name
-git config user.email
+Workign directory
 
-#Start repository:
+	git add fileName
 
-git init
+Staging area
 
-#Tree states:
+	git commint -m "Message"
 
-#Workign directory
+Local repository	
 
-git add fileName or git add . 
+	git Push origin master
 
-#Staging area
-
-git commint -m "Message"
-
-#Local repository	
-
-git Push origin master
-git remote -v
-
-#Bring a repository
-
-git pull origen master
-	
-#Desbloquear el git para hacer el clone
-
-git config --system --unset credential.helper
 
