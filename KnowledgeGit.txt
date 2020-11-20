@@ -31,3 +31,8 @@ Local repository
 
 	git checkout NombreRama
 
+¿How create a alias?
+
+	git config --global alias.lg "log --oneline --decorate --all --graph"
+
+
