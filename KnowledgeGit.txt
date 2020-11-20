@@ -26,3 +26,8 @@ Staging area
 Local repository	
 
 	git Push origin master
+
+¿How to change of mastar to pc?
+
+	git checkout NombreRama
+
