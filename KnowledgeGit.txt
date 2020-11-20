@@ -31,4 +31,7 @@ Local repository
 
 	git branch NombreRama
 
+¿How add and commit?
+
+	git commit -am "Message"
 
