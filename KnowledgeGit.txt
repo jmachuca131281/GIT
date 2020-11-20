@@ -26,3 +26,9 @@ Staging area
 Local repository	
 
 	git Push origin master
+
+¿Cómo cambiar de rama?
+
+	git branch NombreRama
+
+
