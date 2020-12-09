@@ -27,6 +27,7 @@ Local repository
 
 	git Push origin master
 
+<<<<<<< HEAD
 ¿Cómo cambiar de rama?
 
 	git branch NombreRama
@@ -34,4 +35,14 @@ Local repository
 ¿How add and commit?
 
 	git commit -am "Message"
+=======
+¿How to change of mastar to pc?
+
+	git checkout NombreRama
+
+¿How create a alias?
+
+	git config --global alias.lg "log --oneline --decorate --all --graph"
+
+>>>>>>> pc
 
